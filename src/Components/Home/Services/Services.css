@@ -1,0 +1,14 @@
+.card-img-top.cardImage {
+    display: block;
+    width: 100px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.card.card.cardStyle {
+    transition: all 0.35s linear;
+}
+.card.cardStyle:hover {
+    background: #FBD062;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+    transform: scale(1.05);
+}

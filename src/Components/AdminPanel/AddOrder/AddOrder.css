@@ -1,0 +1,16 @@
+.inputField {
+    padding: 10px;
+    font-size: 17px; 
+    outline: none;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+.inputField:not(:first-child){
+    margin-top: 20px;
+}
+.descField {
+    height: 150px;
+}
+.inputField:focus {
+    background-color: lightskyblue;
+}

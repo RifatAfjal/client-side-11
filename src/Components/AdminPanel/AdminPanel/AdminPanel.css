@@ -1,0 +1,10 @@
+.tabContainer {
+    max-width: 100%;
+    overflow: hidden;
+    padding: 50px 0;
+}
+.tabPane {
+    height:100vh;
+    background-color: lightsteelblue;
+    padding: 30px 20px;
+}

@@ -1,0 +1,29 @@
+.headerContainer {
+    background-color: #FBD062;
+    position: relative;
+    margin-bottom: 100px;
+}
+.headerContainer::after {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: inherit;
+    transform-origin: top right;
+    transform: skewY(-5deg);
+    z-index: -1;
+}
+@media screen and (min-width:768px){
+    .headerContainer {
+        margin-bottom: 120px;
+    }
+}
+@media screen and (min-width:992px){
+    .headerContainer {
+        margin-bottom: 180px;
+    }
+}
